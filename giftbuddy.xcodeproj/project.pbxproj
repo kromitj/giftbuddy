@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C359B69C1B41C986008B6DC1 /* BuddyInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C359B69B1B41C986008B6DC1 /* BuddyInfoTableViewController.m */; };
+		C38C64901B4121AD00A6CBDA /* AddBuddyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38C648F1B4121AD00A6CBDA /* AddBuddyTableViewController.m */; };
 		C3E29D851B40E2DB0004CDAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E29D841B40E2DB0004CDAE /* main.m */; };
 		C3E29D881B40E2DB0004CDAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E29D871B40E2DB0004CDAE /* AppDelegate.m */; };
 		C3E29D8B1B40E2DB0004CDAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E29D8A1B40E2DB0004CDAE /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		C3E29D901B40E2DB0004CDAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E29D8F1B40E2DB0004CDAE /* Images.xcassets */; };
 		C3E29D931B40E2DB0004CDAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3E29D911B40E2DB0004CDAE /* LaunchScreen.xib */; };
 		C3E29D9F1B40E2DB0004CDAE /* giftbuddyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E29D9E1B40E2DB0004CDAE /* giftbuddyTests.m */; };
+		C3E29DAA1B40F7F60004CDAE /* AllBuddiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E29DA91B40F7F60004CDAE /* AllBuddiesTableViewController.m */; };
+		C3E29DAD1B40F8540004CDAE /* Buddy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E29DAC1B40F8540004CDAE /* Buddy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C359B69A1B41C986008B6DC1 /* BuddyInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuddyInfoTableViewController.h; sourceTree = "<group>"; };
+		C359B69B1B41C986008B6DC1 /* BuddyInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuddyInfoTableViewController.m; sourceTree = "<group>"; };
+		C38C648E1B4121AD00A6CBDA /* AddBuddyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBuddyTableViewController.h; sourceTree = "<group>"; };
+		C38C648F1B4121AD00A6CBDA /* AddBuddyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBuddyTableViewController.m; sourceTree = "<group>"; };
 		C3E29D7F1B40E2DB0004CDAE /* giftbuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giftbuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E29D831B40E2DB0004CDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3E29D841B40E2DB0004CDAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,10 @@
 		C3E29D981B40E2DB0004CDAE /* giftbuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giftbuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E29D9D1B40E2DB0004CDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3E29D9E1B40E2DB0004CDAE /* giftbuddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = giftbuddyTests.m; sourceTree = "<group>"; };
+		C3E29DA81B40F7F60004CDAE /* AllBuddiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllBuddiesTableViewController.h; sourceTree = "<group>"; };
+		C3E29DA91B40F7F60004CDAE /* AllBuddiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllBuddiesTableViewController.m; sourceTree = "<group>"; };
+		C3E29DAB1B40F8540004CDAE /* Buddy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Buddy.h; sourceTree = "<group>"; };
+		C3E29DAC1B40F8540004CDAE /* Buddy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Buddy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,14 @@
 				C3E29D8F1B40E2DB0004CDAE /* Images.xcassets */,
 				C3E29D911B40E2DB0004CDAE /* LaunchScreen.xib */,
 				C3E29D821B40E2DB0004CDAE /* Supporting Files */,
+				C3E29DAB1B40F8540004CDAE /* Buddy.h */,
+				C3E29DAC1B40F8540004CDAE /* Buddy.m */,
+				C3E29DA81B40F7F60004CDAE /* AllBuddiesTableViewController.h */,
+				C3E29DA91B40F7F60004CDAE /* AllBuddiesTableViewController.m */,
+				C38C648E1B4121AD00A6CBDA /* AddBuddyTableViewController.h */,
+				C38C648F1B4121AD00A6CBDA /* AddBuddyTableViewController.m */,
+				C359B69A1B41C986008B6DC1 /* BuddyInfoTableViewController.h */,
+				C359B69B1B41C986008B6DC1 /* BuddyInfoTableViewController.m */,
 			);
 			path = giftbuddy;
 			sourceTree = "<group>";
@@ -219,8 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38C64901B4121AD00A6CBDA /* AddBuddyTableViewController.m in Sources */,
 				C3E29D8B1B40E2DB0004CDAE /* ViewController.m in Sources */,
 				C3E29D881B40E2DB0004CDAE /* AppDelegate.m in Sources */,
+				C359B69C1B41C986008B6DC1 /* BuddyInfoTableViewController.m in Sources */,
+				C3E29DAD1B40F8540004CDAE /* Buddy.m in Sources */,
+				C3E29DAA1B40F7F60004CDAE /* AllBuddiesTableViewController.m in Sources */,
 				C3E29D851B40E2DB0004CDAE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +436,7 @@
 				C3E29DA41B40E2DB0004CDAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3E29DA51B40E2DB0004CDAE /* Build configuration list for PBXNativeTarget "giftbuddyTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +445,7 @@
 				C3E29DA71B40E2DB0004CDAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
